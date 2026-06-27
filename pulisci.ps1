@@ -12,7 +12,7 @@ param(
 
 $ScriptVersion = [Version]"1.0.0"
 
-# URL raw del file su GitHub (branch main)
+# UR raw del file su GitHub (branch main)
 $RemoteScriptUrl  = "https://raw.githubusercontent.com/tr12349/pulisci.ps1/main/pulisci.ps1"
 # URL API per leggere l'ultimo commit del file
 $RemoteCommitApi  = "https://api.github.com/repos/tr12349/pulisci.ps1/commits?path=pulisci.ps1&per_page=1"
